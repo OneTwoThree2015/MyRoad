@@ -1,0 +1,17 @@
+PODS:
+  - AMapFoundation (1.0.0)
+  - AMapLocation (2.0.0):
+    - AMapFoundation (~> 1.0)
+  - AMapSearch (4.0.0):
+    - AMapFoundation (= 1.0.0)
+
+DEPENDENCIES:
+  - AMapLocation
+  - AMapSearch (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  AMapFoundation: af861f5d299a4f17a1a8b50fd91242933bb352f3
+  AMapLocation: 40141a31e7c584e59d590079eb8e565a90ecdf4d
+  AMapSearch: 867e89123c927436713372803156ac9848d9868a
+
+COCOAPODS: 0.39.0.beta.4
