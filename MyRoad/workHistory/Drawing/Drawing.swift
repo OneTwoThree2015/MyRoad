@@ -52,7 +52,6 @@ class Drawing: UIView {
         CGContextAddLineToPoint(content, 154, 1)
         CGContextStrokePath(content)
         
-        
         //圆形-填充
         let rect1 = CGRect(x: 1, y: 160, width: 150, height: 150)
         UIColor.whiteColor().set()
