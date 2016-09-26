@@ -22,6 +22,87 @@
             </objects>
             <point key="canvasLocation" x="-1038" y="373"/>
         </scene>
+        <!--Share View Controller-->
+        <scene sceneID="pEz-ns-aVx">
+            <objects>
+                <viewController id="M0Z-VO-Mmg" customClass="ShareViewController" customModule="workHistory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z1W-fj-542"/>
+                        <viewControllerLayoutGuide type="bottom" id="xa6-l0-wys"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p5x-KK-WN9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tGX-No-mAk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="shareCell" rowHeight="44" id="BWQ-vz-kcz">
+                                        <rect key="frame" x="0.0" y="92" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BWQ-vz-kcz" id="M50-t2-Xsp">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="M0Z-VO-Mmg" id="Jki-Ws-2Br"/>
+                                    <outlet property="delegate" destination="M0Z-VO-Mmg" id="fFN-dc-cpl"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xa6-l0-wys" firstAttribute="top" secondItem="tGX-No-mAk" secondAttribute="bottom" id="8bO-Io-3cl"/>
+                            <constraint firstItem="tGX-No-mAk" firstAttribute="top" secondItem="p5x-KK-WN9" secondAttribute="top" id="B7q-BR-QAY"/>
+                            <constraint firstAttribute="trailing" secondItem="tGX-No-mAk" secondAttribute="trailing" id="ZDH-Gc-j34"/>
+                            <constraint firstItem="tGX-No-mAk" firstAttribute="leading" secondItem="p5x-KK-WN9" secondAttribute="leading" id="obw-1b-7hE"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="shareTableView" destination="tGX-No-mAk" id="sJd-rv-q3Z"/>
+                        <segue destination="rAM-2J-LJi" kind="show" identifier="shareToFBVC" id="SHP-fx-wn2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="35W-tz-kI2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="-444"/>
+        </scene>
+        <!--Face Book Share View Controller-->
+        <scene sceneID="hqD-fm-wUf">
+            <objects>
+                <viewController id="rAM-2J-LJi" customClass="FaceBookShareViewController" customModule="workHistory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d4G-j1-f01"/>
+                        <viewControllerLayoutGuide type="bottom" id="4es-QO-bIP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rnC-a1-sZW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XX1-ch-Ezq">
+                                <rect key="frame" x="164" y="353" width="86" height="30"/>
+                                <state key="normal" title="ShareButton"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XX1-ch-Ezq" firstAttribute="centerY" secondItem="rnC-a1-sZW" secondAttribute="centerY" id="aKD-ol-Ioc"/>
+                            <constraint firstItem="XX1-ch-Ezq" firstAttribute="centerX" secondItem="rnC-a1-sZW" secondAttribute="centerX" id="qnV-SV-ATC"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="shareBtn" destination="XX1-ch-Ezq" id="YZF-Ts-qrY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UOC-I5-3OG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="839" y="-444"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -62,6 +143,9 @@
                         <outlet property="mainTableView" destination="gyK-kJ-4JE" id="hMg-gy-F2d"/>
                         <segue destination="7bG-hJ-7NT" kind="show" identifier="mainToMap" id="ooX-N0-dPa"/>
                         <segue destination="1sg-Q3-z8o" kind="show" identifier="mainToAnoVC" id="3nJ-r9-2bh"/>
+                        <segue destination="M0Z-VO-Mmg" kind="show" identifier="mainToShare" id="eQU-30-5a9"/>
+                        <segue destination="gJL-2j-g2R" kind="show" identifier="mainToAppleBuy" id="AXo-te-KWw"/>
+                        <segue destination="dFa-tY-BIc" kind="show" identifier="mainToDrawing" id="653-4I-WRt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -98,6 +182,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NwV-1c-Wno" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-308" y="1253"/>
+        </scene>
+        <!--Drawing View Controller-->
+        <scene sceneID="K9H-7Z-dVv">
+            <objects>
+                <viewController id="dFa-tY-BIc" customClass="DrawingViewController" customModule="workHistory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qyE-Al-VZy"/>
+                        <viewControllerLayoutGuide type="bottom" id="dqH-ji-SQx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DvN-GM-f3R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zik-iw-QiY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1297" y="1284"/>
+        </scene>
+        <!--Apple Buy View Controller-->
+        <scene sceneID="MhG-41-0sG">
+            <objects>
+                <viewController id="gJL-2j-g2R" customClass="AppleBuyViewController" customModule="workHistory" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jbs-KC-PN7"/>
+                        <viewControllerLayoutGuide type="bottom" id="2MZ-Bx-dId"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rbW-Xq-Cfx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceZ-MC-VVF">
+                                <rect key="frame" x="59" y="118" width="45" height="30"/>
+                                <color key="backgroundColor" red="0.41176470590000003" green="0.4823529412" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="去水印">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buy1Action:" destination="gJL-2j-g2R" eventType="touchUpInside" id="aB5-8m-GBM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ceZ-MC-VVF" firstAttribute="leading" secondItem="rbW-Xq-Cfx" secondAttribute="leading" constant="59" id="Vs9-Yc-OVc"/>
+                            <constraint firstItem="ceZ-MC-VVF" firstAttribute="top" secondItem="Jbs-KC-PN7" secondAttribute="bottom" constant="54" id="x5T-N7-Fvs"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="buy1" destination="ceZ-MC-VVF" id="5J0-JG-2qE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2hH-DW-Nxe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-747" y="1284"/>
         </scene>
         <!--MapViewController-->
         <scene sceneID="OLb-kF-9Wm">

@@ -15,7 +15,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "主页"
-        arr = ["地图","其他","Helper"]
+        arr = ["地图","分享","其他","Helper","App内部购买","绘图"]
         mainTableView.delegate = self
         mainTableView.dataSource = self
         mainTableView.tableFooterView = UIView()  //取消多余的空白行
@@ -42,8 +42,14 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         switch title {
         case "地图":
             self.performSegueWithIdentifier("mainToMap", sender: nil)
+        case "分享":
+            self.performSegueWithIdentifier("mainToShare", sender: nil)
         case"Helper":
             self.performSegueWithIdentifier("mainToAnoVC", sender: nil)
+        case "App内部购买":
+            self.performSegueWithIdentifier("mainToAppleBuy", sender: nil)
+        case "绘图":
+            self.performSegueWithIdentifier("mainToDrawing", sender: nil)
         default:
             print("未知")
         }

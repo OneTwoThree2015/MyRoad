@@ -17,8 +17,20 @@
 		4BFA86881CFC0B45005889F7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA86871CFC0B45005889F7 /* MapViewController.swift */; };
 		4BFA868A1CFC0F99005889F7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA86891CFC0F99005889F7 /* SearchViewController.swift */; };
 		9A713ADB06D2D985EDAF1947 /* libPods-workHistory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D18E3A7158B89BF17AB2BD /* libPods-workHistory.a */; };
+		CA873B7E1D880C7E00958548 /* AppleBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA873B7D1D880C7E00958548 /* AppleBuyViewController.swift */; };
+		CA873B801D880CA600958548 /* AppleBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA873B7F1D880CA600958548 /* AppleBuy.swift */; };
+		CA873B821D880D3E00958548 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA873B811D880D3E00958548 /* StoreKit.framework */; };
+		CABACB6C1D98D2DB0019A34F /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABACB6B1D98D2DB0019A34F /* DrawingViewController.swift */; };
+		CABACB6E1D98D3F40019A34F /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABACB6D1D98D3F40019A34F /* Drawing.swift */; };
 		CAC3B69D1D2285E0005445A9 /* CustomLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3B69C1D2285E0005445A9 /* CustomLable.swift */; };
 		CAC3B6A21D228970005445A9 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3B6A11D228970005445A9 /* AnotherViewController.swift */; };
+		CAE40CC41D5197300067A2A6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE40CC31D5197300067A2A6 /* FBSDKCoreKit.framework */; };
+		CAE40CC81D51975E0067A2A6 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE40CC71D51975E0067A2A6 /* FBSDKShareKit.framework */; };
+		CAE40CCE1D519D210067A2A6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE40CCD1D519D210067A2A6 /* Bolts.framework */; };
+		CAE40CD31D51A4200067A2A6 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE40CD21D51A4200067A2A6 /* ShareViewController.swift */; };
+		CAE40CD51D51BFA30067A2A6 /* FaceBookShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE40CD41D51BFA30067A2A6 /* FaceBookShareViewController.swift */; };
+		CAE40CD71D51CCE80067A2A6 /* picture1.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE40CD61D51CCE80067A2A6 /* picture1.png */; };
+		CAE40CD91D51CFB80067A2A6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE40CD81D51CFB80067A2A6 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +47,20 @@
 		4BFA86891CFC0F99005889F7 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4BFA868C1CFC175F005889F7 /* workHistory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "workHistory-Bridging-Header.h"; sourceTree = "<group>"; };
 		A6472CA4A34EAC8900EC304F /* Pods-workHistory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workHistory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-workHistory/Pods-workHistory.debug.xcconfig"; sourceTree = "<group>"; };
+		CA873B7D1D880C7E00958548 /* AppleBuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleBuyViewController.swift; path = AppleBuy/AppleBuyViewController.swift; sourceTree = "<group>"; };
+		CA873B7F1D880CA600958548 /* AppleBuy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleBuy.swift; path = AppleBuy/AppleBuy.swift; sourceTree = "<group>"; };
+		CA873B811D880D3E00958548 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CABACB6B1D98D2DB0019A34F /* DrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingViewController.swift; path = Drawing/DrawingViewController.swift; sourceTree = "<group>"; };
+		CABACB6D1D98D3F40019A34F /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drawing.swift; path = Drawing/Drawing.swift; sourceTree = "<group>"; };
 		CAC3B69C1D2285E0005445A9 /* CustomLable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomLable.swift; path = Helper/CustomLable.swift; sourceTree = "<group>"; };
 		CAC3B6A11D228970005445A9 /* AnotherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnotherViewController.swift; path = AnotherVC/AnotherViewController.swift; sourceTree = "<group>"; };
+		CAE40CC31D5197300067A2A6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CAE40CC71D51975E0067A2A6 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		CAE40CCD1D519D210067A2A6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CAE40CD21D51A4200067A2A6 /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShareViewController.swift; path = ShareVC/ShareViewController.swift; sourceTree = "<group>"; };
+		CAE40CD41D51BFA30067A2A6 /* FaceBookShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceBookShareViewController.swift; path = ShareVC/FaceBookShareViewController.swift; sourceTree = "<group>"; };
+		CAE40CD61D51CCE80067A2A6 /* picture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture1.png; sourceTree = "<group>"; };
+		CAE40CD81D51CFB80067A2A6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		CE42E99A63BC0131A6EEA0AB /* Pods-workHistory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workHistory.release.xcconfig"; path = "Pods/Target Support Files/Pods-workHistory/Pods-workHistory.release.xcconfig"; sourceTree = "<group>"; };
 		D1D18E3A7158B89BF17AB2BD /* libPods-workHistory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-workHistory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -46,7 +70,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA873B821D880D3E00958548 /* StoreKit.framework in Frameworks */,
 				9A713ADB06D2D985EDAF1947 /* libPods-workHistory.a in Frameworks */,
+				CAE40CC41D5197300067A2A6 /* FBSDKCoreKit.framework in Frameworks */,
+				CAE40CD91D51CFB80067A2A6 /* FBSDKLoginKit.framework in Frameworks */,
+				CAE40CC81D51975E0067A2A6 /* FBSDKShareKit.framework in Frameworks */,
+				CAE40CCE1D519D210067A2A6 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +85,12 @@
 		1E9B0A523CB0CEBD84722D3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA873B811D880D3E00958548 /* StoreKit.framework */,
+				CAE40CD81D51CFB80067A2A6 /* FBSDKLoginKit.framework */,
+				CAE40CCD1D519D210067A2A6 /* Bolts.framework */,
 				D1D18E3A7158B89BF17AB2BD /* libPods-workHistory.a */,
+				CAE40CC71D51975E0067A2A6 /* FBSDKShareKit.framework */,
+				CAE40CC31D5197300067A2A6 /* FBSDKCoreKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,15 +131,19 @@
 		4BFA86731CFBEF6A005889F7 /* workHistory */ = {
 			isa = PBXGroup;
 			children = (
+				CABACB6A1D98D2B30019A34F /* DrawingVC */,
+				CAE40CD11D51A3F20067A2A6 /* ShareVC */,
 				CAC3B69E1D2287A0005445A9 /* AnotherVC */,
 				CAC3B6991D22855B005445A9 /* Helper */,
 				4BBFA01A1D0FB9C4005E599F /* View */,
 				4BBFA0151D0FB8E1005E599F /* Model */,
 				4BFA86861CFC0B1F005889F7 /* Map */,
+				CA873B7C1D880C0900958548 /* AppleBuy */,
 				4BFA86741CFBEF6A005889F7 /* AppDelegate.swift */,
 				4BFA86761CFBEF6A005889F7 /* ViewController.swift */,
 				4BFA86781CFBEF6A005889F7 /* Main.storyboard */,
 				4BFA867B1CFBEF6A005889F7 /* Assets.xcassets */,
+				CAE40CD61D51CCE80067A2A6 /* picture1.png */,
 				4BFA867D1CFBEF6A005889F7 /* LaunchScreen.storyboard */,
 				4BFA86801CFBEF6A005889F7 /* Info.plist */,
 				4BFA868C1CFC175F005889F7 /* workHistory-Bridging-Header.h */,
@@ -123,6 +161,24 @@
 			path = Map;
 			sourceTree = "<group>";
 		};
+		CA873B7C1D880C0900958548 /* AppleBuy */ = {
+			isa = PBXGroup;
+			children = (
+				CA873B7D1D880C7E00958548 /* AppleBuyViewController.swift */,
+				CA873B7F1D880CA600958548 /* AppleBuy.swift */,
+			);
+			name = AppleBuy;
+			sourceTree = "<group>";
+		};
+		CABACB6A1D98D2B30019A34F /* DrawingVC */ = {
+			isa = PBXGroup;
+			children = (
+				CABACB6B1D98D2DB0019A34F /* DrawingViewController.swift */,
+				CABACB6D1D98D3F40019A34F /* Drawing.swift */,
+			);
+			name = DrawingVC;
+			sourceTree = "<group>";
+		};
 		CAC3B6991D22855B005445A9 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +193,15 @@
 				CAC3B6A11D228970005445A9 /* AnotherViewController.swift */,
 			);
 			name = AnotherVC;
+			sourceTree = "<group>";
+		};
+		CAE40CD11D51A3F20067A2A6 /* ShareVC */ = {
+			isa = PBXGroup;
+			children = (
+				CAE40CD21D51A4200067A2A6 /* ShareViewController.swift */,
+				CAE40CD41D51BFA30067A2A6 /* FaceBookShareViewController.swift */,
+			);
+			name = ShareVC;
 			sourceTree = "<group>";
 		};
 		CD449044073A6FC625217CD1 /* Pods */ = {
@@ -183,6 +248,7 @@
 				TargetAttributes = {
 					4BFA86701CFBEF6A005889F7 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6X2HSWDZCR;
 					};
 				};
 			};
@@ -209,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE40CD71D51CCE80067A2A6 /* picture1.png in Resources */,
 				4BFA867F1CFBEF6A005889F7 /* LaunchScreen.storyboard in Resources */,
 				4BFA867C1CFBEF6A005889F7 /* Assets.xcassets in Resources */,
 				4BFA867A1CFBEF6A005889F7 /* Main.storyboard in Resources */,
@@ -273,9 +340,15 @@
 				4BFA86771CFBEF6A005889F7 /* ViewController.swift in Sources */,
 				CAC3B69D1D2285E0005445A9 /* CustomLable.swift in Sources */,
 				4BFA86881CFC0B45005889F7 /* MapViewController.swift in Sources */,
+				CA873B801D880CA600958548 /* AppleBuy.swift in Sources */,
 				4BBFA0191D0FB969005E599F /* AddressModel.swift in Sources */,
 				4BFA868A1CFC0F99005889F7 /* SearchViewController.swift in Sources */,
+				CA873B7E1D880C7E00958548 /* AppleBuyViewController.swift in Sources */,
 				4BBFA0171D0FB92C005E599F /* PositionViewController.swift in Sources */,
+				CABACB6E1D98D3F40019A34F /* Drawing.swift in Sources */,
+				CAE40CD51D51BFA30067A2A6 /* FaceBookShareViewController.swift in Sources */,
+				CABACB6C1D98D2DB0019A34F /* DrawingViewController.swift in Sources */,
+				CAE40CD31D51A4200067A2A6 /* ShareViewController.swift in Sources */,
 				CAC3B6A21D228970005445A9 /* AnotherViewController.swift in Sources */,
 				4BFA86751CFBEF6A005889F7 /* AppDelegate.swift in Sources */,
 			);
@@ -392,11 +465,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 落 夏 (NN4Z64X8H2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = workHistory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codans.workHistory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codans.ApplePayTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a7eaa8b-be48-4fa1-8f6a-b13d99dd80e0";
 				SWIFT_OBJC_BRIDGING_HEADER = "workHistory/workHistory-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -408,11 +488,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 落 夏 (NN4Z64X8H2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = workHistory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codans.workHistory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codans.ApplePayTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a7eaa8b-be48-4fa1-8f6a-b13d99dd80e0";
 				SWIFT_OBJC_BRIDGING_HEADER = "workHistory/workHistory-Bridging-Header.h";
 			};
 			name = Release;
